@@ -1,0 +1,58 @@
+.books-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 25%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: start; /* Ensures items align to the left */
+}
+
+.book-card-container {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  height: 250px;
+  width: 250px; /* Enforces consistent card size */
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-card-container:hover {
+  transform: translateY(-5px);
+}
+
+.delete-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  color: red;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.delete-icon:hover {
+  color: darkred;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

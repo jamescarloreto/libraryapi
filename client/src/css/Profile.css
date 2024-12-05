@@ -1,0 +1,15 @@
+input::placeholder {
+    color: #6c757d;
+    font-style: italic;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  

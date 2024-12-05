@@ -1,0 +1,24 @@
+
+.book-card-container {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-card-container:hover {
+  transform: translateY(-5px);
+}
+
+.delete-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  color: red;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.delete-icon:hover {
+  color: darkred;
+}
